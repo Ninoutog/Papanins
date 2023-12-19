@@ -1,6 +1,6 @@
 #NIÑO POGI
 #Facebook: Niño infiesto
-#Github : https://github.com/Ninoutog
+#Github : https://github.com/Ninouto
 from os import path
 import os,base64,zlib,pip,urllib
 try:
