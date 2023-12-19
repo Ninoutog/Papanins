@@ -1,0 +1,7 @@
+rm -rf Ninoutog
+
+git clone https://github.com/Ninoutog/Papanins
+
+cd Papanins
+
+python utognins.py
