@@ -98,9 +98,9 @@ id=[]
 tokenku=[]
 # LOGIN_KEY
 correct_username = 'Papanins'
-key = 'papa'
+key = 'baby'
 
-while key == 'papa':
+while key == 'baby':
     username = input('\33[0;97m[•]\33[1;96m•────➤\33[1;92mENTER KEY \33[1;91m: ')
 
     if username == correct_username:
@@ -108,7 +108,7 @@ while key == 'papa':
         time.sleep(1)
         # Assuming clear() is a function to clear the screen
         clear()
-        key = 'false'
+        key = 'baby'
 
 def fucked():
 	print(' Server Loadin.......')
