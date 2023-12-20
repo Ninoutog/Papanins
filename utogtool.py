@@ -96,6 +96,19 @@ cps=[]
 pcp=[]
 id=[]
 tokenku=[]
+# LOGIN_KEY
+correct_username = 'Papanins'
+key = 'papa'
+
+while key == 'papa':
+    username = input('\33[0;97m[•]\33[1;96m•────➤\33[1;92mENTER KEY \33[1;91m: ')
+
+    if username == correct_username:
+        print('\33[1;37m-----------------------------------------------\33[0;97m[•]\33[1;32m LOGGED IN NIÑO TOOL SUCCESSFULLY')
+        time.sleep(1)
+        # Assuming clear() is a function to clear the screen
+        clear()
+        key = 'false'
 
 def fucked():
 	print(' Server Loadin.......')
