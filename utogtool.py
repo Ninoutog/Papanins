@@ -100,7 +100,7 @@ tokenku=[]
 correct_username = 'Papanins'
 key = 'baby'
 
-while key == 'baby':
+while key == 'true':
     username = input('\33[0;97m[•]\33[1;96m•────➤\33[1;92mENTER KEY \33[1;91m: ')
 
     if username == correct_username:
