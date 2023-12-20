@@ -82,7 +82,7 @@ logo = ("""
  ┃ [\033[1;91m✓\033[1;92m] STATUS    \033[1;91m: \033[1;92mTRIAL                       
  ┃ [\033[1;91m✓\033[1;92m] SYSTEM    \033[1;91m: \033[1;92mDATA & WIFI                    
  ┃ [\033[1;91m✓\033[1;92m] FACEBOOK  \033[1;91m: \033[1;92mwww.facebook.com/100080607586393              
- ┃ [\033[1;91m✓\033[1;92m] VERSION \033[1;91m: \033[1;92m0.1         
+ ┃ [\033[1;91m✓\033[1;92m] VERSION \033[1;91m: \033[1;92m0.6         
  ┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━""")
 
 def linex():
@@ -464,7 +464,7 @@ def bd():
                 for nmbr in range(limit):
                         nmp = ''.join(random.choice(string.digits) for _ in range(8))
                         user.append(nmp)
-                with tred(max_workers=30) as sat:     
+                with tred(max_workers=60) as sat:     
                         clear()
                         tl = str(len(user))
                         print(f'\033[1;37m [+] Total account : \033[1;32m'+tl)
@@ -496,7 +496,7 @@ def gml():
                 for nmbr in range(limit):
                         nmp = ''.join(random.choice(string.digits) for _ in range(2,5))
                         user.append(nmp)
-                with tred(max_workers=30) as sat:     
+                with tred(max_workers=60) as sat:     
                         clear()
                         tl = str(len(user))
                         print(' Total account : \033[1;32m'+tl)
