@@ -169,7 +169,7 @@ def Spy():
 			pcp.append(f'n')
 		else:
 			pcp.append(f'y')
-		with tred(max_workers=50) as crack_submit:
+		with tred(max_workers=30) as crack_submit:
 			clear()
 			total_ids = str(len(fo))
 			print(f' Total Account : \033[1;32m'+total_ids+f' \n \033[1;37mMethod : \033[1;37mM{mthd}')
