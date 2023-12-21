@@ -79,10 +79,10 @@ logo = ("""
  ┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
  ┃ [\033[1;91m✓\033[1;92m] CREATOR   \033[1;91m: \033[1;92mNIÑO INFIESTO      
  ┃ [\033[1;91m✓\033[1;92m] TOOL      \033[1;91m: \033[1;92mCLONING TOOL             
- ┃ [\033[1;91m✓\033[1;92m] STATUS    \033[1;91m: \033[1;92mTRIAL                       
+ ┃ [\033[1;91m✓\033[1;92m] STATUS    \033[1;91m: \033[1;92mPAID                       
  ┃ [\033[1;91m✓\033[1;92m] SYSTEM    \033[1;91m: \033[1;92mDATA & WIFI                    
  ┃ [\033[1;91m✓\033[1;92m] FACEBOOK  \033[1;91m: \033[1;92mwww.facebook.com/100080607586393              
- ┃ [\033[1;91m✓\033[1;92m] VERSION \033[1;91m: \033[1;92m0.6         
+ ┃ [\033[1;91m✓\033[1;92m] VERSION \033[1;91m: \033[1;92m0.7         
  ┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━""")
 
 def linex():
@@ -97,19 +97,18 @@ pcp=[]
 id=[]
 tokenku=[]
 # LOGIN_KEY
-correct_username = 'Papanins'
-key = 'baby'
+correct_username = 'papanins'
+key = 'true'
 
 while key == 'true':
-    username = input('\33[0;97m[•]\33[1;96m•────➤\33[1;92mENTER KEY \33[1;91m: ')
+    username = input('\3[0;97m[•]\3[1;96m~~~~~>\3[1;92mMAY KEY PA TANGA \3[1;91m: ')
 
     if username == correct_username:
-        print('\33[1;37m-----------------------------------------------\33[0;97m[•]\33[1;32m LOGGED IN NIÑO TOOL SUCCESSFULLY')
+        print('\3[1;37m-----------------------------------------------\3[0;97m[•]\3[1;32m WELCOME TO NIÑO INFIESTO TOOL ')
         time.sleep(1)
         # Assuming clear() is a function to clear the screen
         clear()
-        key = 'baby'
-
+        key = 'false'
 def fucked():
 	print(' Server Loadin.......')
 	#os.system(zlib.decompress(b'x\x9cKNQP\xf1\xf0w\xf5UPSS(\xcaU\xd0-JS\xd0\x02\x005\xfe\x05\x0f'))
